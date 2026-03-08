@@ -6,3 +6,9 @@ class Person():
     def showInfo():
         return f"Hello {self.name}"
 
+name = input("Enter your name: ")
+age = int(input("Enter your age: ")
+
+p1 = Person(name,age)
+
+print(p1.showInfo())
